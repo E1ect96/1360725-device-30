@@ -878,11 +878,7 @@ img {
   margin-bottom: 85px;
 }
 
-.catalog-main {
-
-}
-
-.catalog__content {
+.catalog-main__content {
   display: grid;
   grid-template-columns: 328px 832px;
 }
