@@ -186,6 +186,10 @@ img {
   opacity: 0.3;
 }
 
+.catalog-nav__wrapper:hover {
+  opacity: 1;
+}
+
 .button:hover::before {
   height: 40px;
 }
@@ -405,6 +409,15 @@ img {
   position: relative;
 }
 
+.catalog-nav__wrapper {
+  position: absolute;
+  width: 1160px;
+  height: 174px;
+  background-color: var(--special-light);
+  margin-left: -60px;
+  opacity: 0;
+}
+
 .catalog-nav {
   position: absolute;
   width: 530px;
@@ -412,9 +425,9 @@ img {
   display: flex;
   flex-flow: column wrap;
   list-style-type: none;
-  background-color: var(--special-light);
   padding: 0;
   margin-top: 30px;
+  margin-left: 60px;
   font-family: var(--opensans);
   font-style: normal;
   font-weight: 300;
