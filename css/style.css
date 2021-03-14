@@ -943,7 +943,19 @@ img {
 
 .filter {
   background-color: var(--basic-gray-light);
-  padding-left: 60px;
+  margin-left: 60px;
+  position: relative;
+}
+
+.filter::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: var(--basic-gray-light);
+  z-index: -1;
 }
 
 .filter__wrapper {
@@ -955,6 +967,17 @@ img {
   margin: 0;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+.filter__title::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  height: 70px;
+  background-color: var(--basic-gray-dark);
+  z-index: -1;
 }
 
 .filter__title, .sorting__title {
@@ -1011,7 +1034,7 @@ img {
   height: 4px;
   padding: 0;
   border: 8px solid var(--basic-white);
-  background-color: #c4c4c4;
+  background-color: var(--toggle-gray);
   border-radius: 50%;
   -webkit-box-shadow: 0 2px 1px 0 var(--toggle-shadow);
   box-shadow: 0 2px 1px 0 var(--toggle-shadow);
@@ -1114,6 +1137,18 @@ img {
 .sorting {
   display: flex;
   background-color: var(--basic-gray-light);
+  position: relative;
+}
+
+.sorting::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 70px;
+  background-color: var(--basic-gray-light);
+  z-index: -1;
 }
 
 .sorting__title {
