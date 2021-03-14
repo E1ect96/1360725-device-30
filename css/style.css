@@ -73,6 +73,10 @@ input[type="radio"].visually-hidden {
 
   --status: #f6dada;
 
+  --scale-gray: rgba(0, 0, 0, 0.2);
+  --scale-green: #00ca74;
+  --toggle-gray: #c4c4c4;
+  --toggle-shadow: #cfcfcf;
   /*Fonts*/
 
   --opensans: "Open Sans", "Arial", sans-serif;
@@ -972,6 +976,55 @@ img {
 
 .filter__price {
   margin-top: 70px;
+  position: relative;
+}
+
+.range-slider {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  width: 220px;
+  height: 80px;
+  background-color: transparent;
+  margin-top: 10px;
+  margin-bottom: 9px;
+  border-radius: 5px;
+  padding-top: 39px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.scale {
+  height: 2px;
+  background: var(--scale-gray);
+  margin-top: 39px;
+  margin-bottom: 17px;
+}
+.bar {
+  width: 84.4%;
+  height: 2px;
+  background: var(--scale-green);
+}
+.toggle {
+  position: absolute;
+  top: 65px;
+  width: 4px;
+  height: 4px;
+  padding: 0;
+  border: 8px solid var(--basic-white);
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 2px 1px 0 var(--toggle-shadow);
+  box-shadow: 0 2px 1px 0 var(--toggle-shadow);
+  cursor: pointer;
+  box-sizing: content-box;
+
+}
+.toggle-min {
+  left: 0;
+}
+
+.toggle-max {
+  left: 160px;
 }
 
 .min-price, .max-price {
