@@ -219,11 +219,6 @@ img {
 .categories__item:active::before {
   opacity: 0.3;
 }
-.categories__item--mp::before
-.categories__item--ac::before
-.categories__item--fb::before
-.categories__item--sw::before
-.categories__item--qc::before
 
 .brands__item--dji:hover {
   background-color: transparent;
