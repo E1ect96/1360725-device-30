@@ -770,7 +770,7 @@ img {
   padding: 0;
 }
 
-.current-service {
+.current-service-btn {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -795,7 +795,7 @@ img {
   left: 277px;
 }
 
-.services-grid::before {
+.services__delivery::before {
   content: "";
   width: 136px;
   height: 164px;
@@ -805,8 +805,33 @@ img {
   right: 0;
 }
 
+.services__guarantee::before {
+  content: "";
+  width: 171px;
+  height: 195px;
+  background-image: url("../img/svg/services/warranty.svg");
+  position: absolute;
+  top: 25px;
+  right: 0;
+}
+
+.services__credit::before {
+  content: "";
+  width: 156px;
+  height: 188px;
+  background-image: url("../img/svg/services/credit.svg");
+  position: absolute;
+  top: 25px;
+  right: 0;
+}
+
 .services__delivery, .services__guarantee, .services__credit {
   margin-bottom: 129px;
+  display: none;
+}
+
+.current-service {
+  display: inline;
 }
 
 .services__title{
@@ -1518,7 +1543,7 @@ img {
   width: 960px;
   height: 550px;
   background-color: var(--basic-white);
-  box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.15);
 }
 
 .modal__close-btn {
