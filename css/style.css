@@ -1076,7 +1076,7 @@ img {
   margin-bottom: 17px;
 }
 .bar {
-  width: 84.4%;
+  width: 134px;
   height: 2px;
   background: var(--scale-green);
 }
@@ -1100,13 +1100,17 @@ img {
 }
 
 .toggle-max {
-  left: 160px;
+  left: 114px;
 }
 
 .min-price, .max-price {
   font-weight: 300;
   font-size: 14px;
   line-height: 16px;
+}
+
+.max-price {
+  padding-left: 66px;
 }
 
 .filter__color, .filter__bt {
