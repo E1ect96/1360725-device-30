@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
       <title>Моноподы для селфи</title>
   </head>
-  <body>
+  <body class="authorized">
     <header class="main-header container">
     <a class="main-header__logo">
       <img src="img/svg/logo/logo_black.svg" width="163" height="35" alt="Логотип магазина Девайс">
@@ -20,20 +20,24 @@
     </form>
     <ul class="user-nav">
       <li><a href="#" class="user-nav__item user-nav__item--login">Войти</a></li>
+      <li class="user-nav__account">
+        <a class="user-nav__item user-nav__item--name" href="#">Валентин петухов</a>
+        <a class="user-nav__item user-nav__item--exit" href="#">Выйти</a>
+      </li>
       <li><a href="#" class="user-nav__item user-nav__item--compare">Сравнить</a></li>
-      <li><a href="#" class="user-nav__item user-nav__item--cart">Корзина</a></li>
+      <li><a href="#" class=" user-nav__item--cart">Корзина</a></li>
     </ul>
     <nav class="main-nav">
       <ul class="main-nav__list">
         <li class="main-nav__item">
-          <a href="catalog.html" class="catalog-nav__title main-nav__link">Каталог товаров</a>
+          <a href="#" class="catalog-nav__title main-nav__link">Каталог товаров</a>
           <div class="catalog-nav__wrapper">
             <ul class="catalog-nav">
               <li class="catalog-nav__item">
                 <a href="#" class="catalog-nav__link">Виртуальная реальность</a>
               </li>
               <li class="catalog-nav__item">
-                <a href="#" class="catalog-nav__link">Моноподы для селфи</a>
+                <a href="catalog.html" class="catalog-nav__link">Моноподы для селфи</a>
               </li>
               <li class="catalog-nav__item">
                 <a href="#" class="catalog-nav__link">Экшн-камеры</a>
@@ -228,6 +232,10 @@
         </a>
         <ul class="user-nav user-nav--footer">
           <li><a href="#" class="user-nav__footer-item user-nav__footer-item--login">Войти</a></li>
+          <li class="user-nav__account">
+            <a class="user-nav__footer-item user-nav__footer-item--name" href="#">Валентин петухов</a>
+            <a class="user-nav__footer-item user-nav__footer-item--exit" href="#">Выйти</a>
+          </li>
           <li><a href="#" class="user-nav__footer-item user-nav__footer-item--compare">Сравнить</a></li>
           <li><a href="#" class="user-nav__footer-item user-nav__footer-item--cart">Корзина</a></li>
         </ul>
