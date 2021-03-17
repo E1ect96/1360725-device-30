@@ -449,6 +449,7 @@ img {
   background-color: var(--special-light);
   margin-left: -60px;
   opacity: 0;
+  z-index: 1;
 }
 
 .catalog-nav {
@@ -517,7 +518,7 @@ img {
 /*main*/
 
 .slider {
-  background: linear-gradient(var(--special-light) 139px, transparent 139px);
+  background: linear-gradient(var(--special-light) 129px, transparent 129px);
   margin-bottom: 76px;
 }
 
