@@ -19,13 +19,13 @@
       <input class="main-header__search-button" type="submit" name="search-button" value="Найти">
     </form>
     <ul class="user-nav">
-      <li class="user-nav__item"><a href="#" class="user-nav__item--login">Войти</a></li>
-      <li class="user-nav__item user-nav__account">
-        <a class="user-nav__name" href="#">Валентин петухов</a>
-        <a class="user-nav__exit" href="#">Выйти</a>
+      <li><a href="#" class="user-nav__item user-nav__item--login">Войти</a></li>
+      <li class="user-nav__account">
+        <a class="user-nav__item user-nav__item--name" href="#">Валентин петухов</a>
+        <a class="user-nav__item user-nav__item--exit" href="#">Выйти</a>
       </li>
-      <li class="user-nav__item"><a href="#" class="user-nav__item--compare">Сравнить</a></li>
-      <li class="user-nav__item"><a href="#" class="user-nav__item--cart">Корзина</a></li>
+      <li><a href="#" class="user-nav__item user-nav__item--compare">Сравнить</a></li>
+      <li><a href="#" class=" user-nav__item--cart">Корзина</a></li>
     </ul>
     <nav class="main-nav">
       <ul class="main-nav__list">
@@ -269,6 +269,10 @@
         </a>
         <ul class="user-nav user-nav--footer">
           <li><a href="#" class="user-nav__footer-item user-nav__footer-item--login">Войти</a></li>
+          <li class="user-nav__account">
+            <a class="user-nav__footer-item user-nav__footer-item--name" href="#">Валентин петухов</a>
+            <a class="user-nav__footer-item user-nav__footer-item--exit" href="#">Выйти</a>
+          </li>
           <li><a href="#" class="user-nav__footer-item user-nav__footer-item--compare">Сравнить</a></li>
           <li><a href="#" class="user-nav__footer-item user-nav__footer-item--cart">Корзина</a></li>
         </ul>
@@ -281,7 +285,7 @@
         <a href="tel:+74954959595" class="main-footer__tel">Тел.: +7 (495) 495-95-95</a>
       </div>
       <div class="main-footer__bottom container">
-        <div class="main-footer__line"></div>
+        <div class="line line--footer"></div>
         <ul class="socials">
           <li><a href="#"><div class="socials__item socials__item--fb"></div></a></li>
           <li><a href="#"><div class="socials__item socials__item--inst"></div></a></li>
