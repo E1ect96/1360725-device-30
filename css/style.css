@@ -74,6 +74,7 @@ input[type="radio"].visually-hidden {
   --special: #91c92f;
 
   --status: #f6dada;
+  --opacity-03: rgba(255, 255, 255, 0.3);
 
   --scale-gray: rgba(0, 0, 0, 0.2);
   --scale-green: #00ca74;
@@ -213,6 +214,14 @@ img {
   border-bottom: 2px solid var(--basic-black);
 }
 
+.main-header__search-button:hover {
+  background-color: var(--basic-black);
+  color: var(--basic-white);
+}
+
+.main-header__search-button:active {
+  color: var(--opacity-03);
+}
 
 .catalog-nav__wrapper:hover, .catalog-nav__title:hover .catalog-nav__wrapper {
   visibility: visible;
