@@ -180,6 +180,7 @@ img {
 .main-header__logo:hover,
 .user-nav__item:hover,
 .main-nav__item:hover > .main-nav__link,
+.catalog-nav__link:hover,
 .main-footer__logo:hover,
 .developer-link:hover {
   opacity: 0.6;
@@ -187,7 +188,8 @@ img {
 
 .main-header__logo:active,
 .user-nav__item:active,
-.main-nav__item:hover > .main-nav__link,
+.main-nav__item:active > .main-nav__link,
+.catalog-nav__link:active,
 .main-footer__logo:active,
 .developer-link:active {
   opacity: 0.3;
