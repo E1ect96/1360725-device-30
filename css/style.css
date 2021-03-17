@@ -1428,7 +1428,7 @@ img {
 
 .main-footer__logo {
   padding-top: 33px;
-  padding-bottom: 36px;
+  padding-bottom: 34px;
 }
 
 .user-nav--footer {
@@ -1489,6 +1489,7 @@ img {
   font-weight: 300;
   font-size: 15px;
   line-height: 20px;
+  padding-top: 2px;
 }
 
 .main-nav--footer {
@@ -1509,6 +1510,7 @@ img {
   font-weight: 300;
   font-size: 15px;
   line-height: 20px;
+  padding-top: 2px;
 }
 
 .main-footer__bottom {
@@ -1521,7 +1523,7 @@ img {
   width: 80px;
   height: 7px;
   background-color: var(--special-amber);
-  margin-top: 27px;
+  margin-top: 29px;
 }
 
 .socials {
@@ -1538,7 +1540,7 @@ img {
   height: 34px;
   background-color: transparent;
   background-image: url("../img/svg/logo/logo-html.svg");
-  margin-top: 14px;
+  margin-top: 16px;
   margin-left: 54px;
 }
 
