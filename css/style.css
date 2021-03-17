@@ -223,8 +223,11 @@ img {
   color: var(--opacity-03);
 }
 
-.catalog-nav__wrapper:hover, .catalog-nav__title:hover .catalog-nav__wrapper {
-  visibility: visible;
+.catalog-nav__title:hover .catalog-nav__wrapper,
+.catalog-nav__title:focus .catalog-nav__wrapper,
+.catalog-nav__wrapper:hover,
+.catalog-nav__wrapper:focus-within {
+  z-index: 2;
 }
 
 .button:hover::before {
@@ -517,8 +520,7 @@ img {
   height: 164px;
   background-color: var(--special-light);
   margin-left: -60px;
-  visibility: hidden;
-  z-index: 1;
+  z-index: -1;
 }
 
 .catalog-nav {
