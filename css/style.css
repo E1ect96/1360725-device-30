@@ -93,10 +93,6 @@ input[type="radio"].visually-hidden {
   padding-top: 20px;
 }
 
-.page__body--catalog {
-  overflow-x: hidden;
-}
-
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -1328,11 +1324,11 @@ justify-content: flex-end;
   position: relative;
 }
 
-.sorting::after {
+.page__body--catalog::after {
   content: "";
   position: absolute;
   left: 0;
-  top: 0;
+  top: 427px;
   width: 100vw;
   height: 70px;
   background-color: var(--basic-gray-light);
