@@ -91,10 +91,11 @@ input[type="radio"].visually-hidden {
 .page {
   height: 100%;
   padding-top: 20px;
-  overflow: hidden;
 }
 
-
+.page__body--catalog {
+  overflow-x: hidden;
+}
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -197,6 +198,8 @@ img {
 .developer-link:active {
   opacity: 0.3;
 }
+
+
 
 .main-header__search-input:hover::-webkit-input-placeholder {
   opacity: 0.6;
