@@ -1305,7 +1305,7 @@ justify-content: flex-end;
   opacity: 1;
 }
 
-.filter__input:disabled + .check-box, .filter__input:disabled + .radio-btn {
+.filter__input:disabled + .check-box, .filter__input:disabled + .radio-btn, .filter__input:disabled ~ .filter__value{
   opacity: 0.25;
 }
 
