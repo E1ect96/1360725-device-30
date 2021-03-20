@@ -1589,14 +1589,6 @@ justify-content: flex-end;
   padding-right: 67px;
 }
 
-.user-nav__footer-icon {
-  opacity: 1;
-}
-
-.user-nav__footer-link {
-  opacity: 0.7;
-}
-
 .user-nav__footer-icon--login {
   content: "";
   width: 13px;
