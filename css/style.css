@@ -6,8 +6,6 @@
   src: local("Gilroy"),
        url("../fonts/gilroylight.woff2") format("woff2"),
        url("../fonts/gilroylight.woff") format("woff");
-  /*font-weight: 300;*/
-  /*font-style: normal;*/
 }
 
 @font-face {
@@ -164,7 +162,7 @@ img {
   margin-bottom: 40px;
 }
 
-.button--feedback {
+.button--main-bottom {
   width: 260px;
   height: 22px;
 }
@@ -373,7 +371,7 @@ img {
 
 .main-header__logo {
   grid-column: 1 / -1;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .main-header__search-input {
@@ -414,6 +412,7 @@ img {
   display: flex;
   align-items: center;
   border-bottom: 2px solid transparent;
+  position: relative;
 }
 
 .main-header__search-icon {
@@ -436,11 +435,12 @@ img {
   font-size: 15px;
   line-height: 20px;
   text-transform: uppercase;
-  margin-top: 1px;
-  margin-left: 342px;
   overflow: hidden;
   visibility: hidden;
   opacity: 0;
+  position: absolute;
+  right: 0;
+  bottom: -1px;
 }
 
 .user-nav {
@@ -1697,7 +1697,6 @@ justify-content: flex-end;
   width: 136px;
   height: 32px;
   justify-content: space-between;
-  margin-left: 80px;
 }
 
 .developer-link {
