@@ -452,7 +452,7 @@ justify-content: flex-end;
   font-size: 15px;
   line-height: 20px;
   list-style-type: none;
-  padding-left: 24px;
+  padding-left: 19px;
 }
 
 .authorized .user-nav__item--login, .authorized .user-nav__footer-item--login {
@@ -461,6 +461,7 @@ justify-content: flex-end;
 
 .authorized .user-nav__account {
   display: flex;
+  margin-right: 5px;
 }
 
 .user-nav__item {
@@ -472,7 +473,7 @@ justify-content: flex-end;
 }
 
 .user-nav__item--name {
-  padding-right: 22px;
+  padding-right: 17px;
 }
 
 .user-nav__item--exit {
@@ -782,7 +783,7 @@ justify-content: flex-end;
 
 .categories {
   padding-top: 39px;
-  margin-bottom: 89px;
+  margin-bottom: 88px;
 }
 
 .categories__list {
@@ -992,7 +993,7 @@ justify-content: flex-end;
 .brands {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 90px;
+  margin-bottom: 89px;
 }
 
 .brands__item {
@@ -1049,8 +1050,8 @@ justify-content: flex-end;
   list-style-type: none;
   margin: 0;
   padding-left: 32px;
-  padding-top: 23px;
-  padding-bottom: 64px;
+  padding-top: 19px;
+  padding-bottom: 62px;
 }
 
 .main-bottom__list-item {
@@ -1071,7 +1072,7 @@ justify-content: flex-end;
 }
 
 .main-bottom__map {
-  margin-bottom: 82px;
+  margin-bottom: 80px;
 }
 
 .catalog-main {
@@ -1189,7 +1190,7 @@ justify-content: flex-end;
 }
 
 .filter__price {
-  margin-top: 70px;
+  margin-top: 67px;
   position: relative;
 }
 
@@ -1497,7 +1498,7 @@ justify-content: flex-end;
   align-items: center;
   justify-content: space-between;
   background-color: var(--basic-gray-extralight);
-  margin-bottom: 78px;
+  margin-bottom: 75px;
   margin-left: 72px;
 }
 
